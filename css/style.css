@@ -14,8 +14,10 @@ body {
     #team-members .member img {
       width: 200px;
       height: 200px;
-      background: url("images/team/don_edited.jpg") bottom; }
+      border-radius: 95px;
+      box-shadow: 5px 5px 10px grey; }
     #team-members .member img:hover {
+      background: url(images/team/sherman.jpg) no-repeat;
       background-position: 0 0; }
     #team-members .member div.name {
       text-align: center; }
