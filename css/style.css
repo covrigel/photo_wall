@@ -15,10 +15,14 @@ body {
       width: 200px;
       height: 200px;
       border-radius: 95px;
-      box-shadow: 5px 5px 10px grey; }
+      box-shadow: 5px 5px 10px grey;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out; }
     #team-members .member img:hover {
-      background: url(images/team/sherman.jpg) no-repeat;
-      background-position: 0 0; }
+      -webkit-transform: scale(1.08);
+      transform: scale(1.08); }
     #team-members .member div.name {
       text-align: center; }
 
